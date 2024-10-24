@@ -1,0 +1,8 @@
+.sales-by-date-title {
+  font-size: 24px;
+  color: var(--color-tertiary);
+}
+
+.sales-by-date-period {
+  color: var(--color-gray-200-light);
+}

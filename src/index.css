@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  background-color: var(--color-secondary);
+  color: var(--color-tertiary);
+}
+
+:root {
+  --color-primary: #283142;
+  --color-secondary: #1b2531;
+  --color-tertiary: #e9e9e9;
+  --color-gray-50-light: #9aaabe;
+  --color-gray-100-light:#384459;
+  --color-gray-200-light:#949494;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.base-card {
+  background-color: var(--color-primary);
+  border-radius: 10px;
+}
